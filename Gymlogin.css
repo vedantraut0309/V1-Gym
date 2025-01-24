@@ -1,0 +1,32 @@
+@import url('https:/fonts.googleapis.com/css2?family=Poppins:weight@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 21, 35);
+    font-family: 'Poppins',sans-serif;
+}
+form{
+    width: 24%;
+    background-color: rgb(205, 202, 224);
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius:50px;
+    background: linear-gradient(rgb(62, 68, 149),rgb(21, 21, 68));
+}
+
+@media only screen and (max-width:600px) {
+    form{
+        width:100% !important;
+    }
+}
+#Help{
+    padding-top: 10px;
+}

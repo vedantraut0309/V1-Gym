@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+.border-indigo-500 {
+    
+        --border-opacity: 1;
+        border-color: #e2e8f0;
+        border-color: rgba(226, 232, 240, var(--border-opacity));
+    
+}
+
+.bg-gray-400 {
+    background-color: #667eea;
+    background-color: rgba(102, 126, 234, var(--bg-opacity));
+}
+#home{
+    position: fixed;
+    width: 100%;
+    background-color:rgb(31, 31, 57);
+}
+body{
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+*{
+    color: wheat;
+}
+.text-gray-900 {
+    --text-opacity: 1;
+    color: wheat;
+}
+p{
+    color: rgba(113, 128, 150, var(--text-opacity));
+}
+.p-6:hover{
+    transition: 0.7s ease;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(14, 14, 27);
+}
+.bg-gray-100{
+    background-color: rgb(31, 31, 57);
+}
+#hom{
+    padding-top:60px;
+}
+
